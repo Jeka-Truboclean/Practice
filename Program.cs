@@ -62,11 +62,17 @@ class Program
         double AveragePrice = Convert.ToDouble(Console.ReadLine());
         */
 
-        //No 2
+        /* //No 2
         short a = 350;
         int b = 3500;
 
         b += (short)a;
         Console.WriteLine($"Short -> {b}");
+        */
+
+        //No 3
+        short a = 5;
+        short b = 2;
+        short c = 0;
     }
 }
