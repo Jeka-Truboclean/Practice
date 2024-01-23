@@ -45,6 +45,7 @@ class Program
         */
 
         //First Practice
+        /* //No 1
         Console.Write("Shop name -> ");
         string Name = Console.ReadLine();
         Console.Write("Securety count -> ");
@@ -59,5 +60,13 @@ class Program
         string LogoColor = Console.ReadLine();
         Console.Write("Average price -> ");
         double AveragePrice = Convert.ToDouble(Console.ReadLine());
+        */
+
+        //No 2
+        short a = 350;
+        int b = 3500;
+
+        b += (short)a;
+        Console.WriteLine($"Short -> {b}");
     }
 }
